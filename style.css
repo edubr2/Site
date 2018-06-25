@@ -46,7 +46,7 @@ p {
 .ajuste2{margin:5px 0  0 0;}
 .ajuste3{padding:5px 10px ; float: left;  height: 30px; width: 30px; margin:0 5px; -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
 .ajuste3:hover{padding:5px 10px ; float: left;  height: 30px; width: 30px; margin:0 5px; -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; background: #009688;}
-.text-ajuste{text-shadow: 1px 1px #333333; color:#ffffff;}
+.text-ajuste{text-shadow: 1px 1px #333333; color:#000000;}
 .button-collapse {
   color: #26a69a;
 }
