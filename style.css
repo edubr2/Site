@@ -1,0 +1,95 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+/* Largura da barra de rolagem */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+   
+}
+
+/* Cor do indicador de rolagem */
+::-webkit-scrollbar-thumb:vertical,
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #BAC0C4;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+::-webkit-scrollbar-thumb:vertical:hover,
+::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #717171
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.ajuste{padding:16px 0 0 0;}
+p {
+  line-height: 2rem;
+}
+.contato{
+  height: 40px;
+  padding:3px 0 3px 0 ;
+}
+.ajuste2{margin:5px 0  0 0;}
+.ajuste3{padding:5px 10px ; float: left;  height: 30px; width: 30px; margin:0 5px; -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.ajuste3:hover{padding:5px 10px ; float: left;  height: 30px; width: 30px; margin:0 5px; -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; background: #009688;}
+.text-ajuste{text-shadow: 1px 1px #333333; color:#ffffff;}
+.button-collapse {
+  color: #26a69a;
+}
+
+.margemtopo { margin-top:60px;}
+
+.circulo { border: solid 1px #26a69a ; width: 80px ; height: 80px;  -webkit-border-radius: 50px; -moz-border-radius: 50px;  border-radius: 50px; margin: 20px auto; font-size: 25px; }
+.parallax-container {
+  min-height: 200px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.fonteicon { font-size:80pt; color:#FFFF00;}
+
+  #index-banner .section { top: 7%;  }
+  .slider .slides li .caption { top:7%;}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section { position: absolute; top: 40%; }
+  #index-banner .section { top: 10%; }
+  .margemtopo { margin-top:20px;}
+}
+
+@media only screen and (max-width : 600px) {
+
+.fonteicon { display:none;}
+
+  #index-banner .section { top: 0;}
+  .slider .slides li .caption { top:0;}
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
